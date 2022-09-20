@@ -9,4 +9,5 @@ class Artist:
 
     def get_album_from_artist(self, artistId):
         albums = self.sp.artist_albums(artistId)
+
         return albums
