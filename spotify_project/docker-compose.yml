@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  spotify_project:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: spotfy
+    ports:
+      - "8005:80"
+    volumes:
+      - ".:/src"
