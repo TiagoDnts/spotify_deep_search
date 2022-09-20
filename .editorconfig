@@ -1,1 +1,25 @@
-ECHO is on.
+root = true
+
+[*]
+end_of_line = lf
+insert_final_newline = true
+indent_size = 4
+
+[Makefile]
+indent_style = tab
+indent_size = 8
+
+[*.{xml,apib,sh,Dockerfile}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.{{,j,t}s{,on,ql},{ht,y{,a}}ml,md,css}]
+charset = utf-8
+indent_style = space
+indent_size = 2
+
+[*.conf]
+charset = utf-8
+indent_style = space
+indent_size = 8
